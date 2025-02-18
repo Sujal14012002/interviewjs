@@ -432,33 +432,138 @@
 // console.log(bob);
 
 
-function checkage(age){
-  if(age>=18){
-    return age;
-  }
-  else{
-    alert("denied the age")
-  }
+// function checkage(age){
+//   if(age>=18){
+//     return age;
+//   }
+//   else{
+//     alert("denied the age")
+//   }
 
-}
-
-
-
-let age =prompt("enter age",18);
-
-
-if(checkage(age)){
-  alert("access granted")
-}
-else{
-  alert("access denied")
-}
+// }
 
 
 
+// let age =prompt("enter age",18);
+
+
+// if(checkage(age)){
+//   alert("access granted")
+// }
+// else{
+//   alert("access denied")
+// }
+
+// function showPrimes(n) {
+//   nextPrime: for (let i = 2; i < n; i++) {
+
+//     for (let j = 2; j < i; j++) {
+//       if (i % j == 0) continue nextPrime;
+//     }
+
+//     alert( i ); // a prime
+//   }
+// }
+
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes()
+//   else no();
+// }
+
+// function showOk() {
+//   alert( "You agreed." );
+// }
+
+// function showCancel() {
+//   alert( "You canceled the execution." );
+// }
+
+// // usage: functions showOk, showCancel are passed as arguments to ask
+// ask("Do you agree?", showOk, showCancel);
 
 
 
 
 
+// function ask(question,yes,no){
+//  if(confirm(question)) yes()
+//   else no();
+// }
+
+
+// function showright(){
+//   alert("cancel the tab")
+// }
+
+
+//  function showwrong(){
+//   alert("it's right person")
+// }
+
+
+// ask("what is your name",showright,showwrong)
   
+
+
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes()
+//   else no();
+// }
+
+// ask(
+//   "Do you agree?",
+//   function() { alert("You agreed."); },
+//   function() { alert("You canceled the execution."); }
+// );
+
+
+// let val=prompt("enter a valaue");
+// let age=(val<18)?function (){
+//   alert("teenage")
+// }:function (){
+//   alert("wrong output");
+// }
+
+
+// age();
+
+
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes();
+//   else no();
+// }
+
+// ask(
+//   "Do you agree?",
+//   function() { alert("You agreed."); },
+//   function() { alert("You canceled the execution."); }
+// );
+
+
+// let multtask=(val,yes,no)=>{
+
+//   if(confirm(val)) yes()
+//     else no();
+
+
+
+// }
+
+// multtask(
+//   "do you have any question"
+//   ()= alert("it's right output")
+//   ()=alert("it's wrong output ")
+// )
+
+
+
+function power(x,n){
+  let result=1;
+  for(let i=0;i<n;i++){
+    result=result*x;
+  }
+
+  return result;
+}
+
+console.log(power(5,3))
