@@ -405,6 +405,56 @@
 // }
 
 
+// let name="johan";
+
+
+// function showmessage(){
+
+//   let message="hello"+ "  "+name;
+//   console.log(message);
+  
+// }
+
+
+// showmessage();
+
+
+
+// let bob="mohan";
+
+// function sendingmessage(){
+//   let bob="virat";
+//   console.log(bob);
+// }
+
+// console.log(bob);
+// sendingmessage();
+// console.log(bob);
+
+
+function checkage(age){
+  if(age>=18){
+    return age;
+  }
+  else{
+    alert("denied the age")
+  }
+
+}
+
+
+
+let age =prompt("enter age",18);
+
+
+if(checkage(age)){
+  alert("access granted")
+}
+else{
+  alert("access denied")
+}
+
+
 
 
 
