@@ -557,13 +557,19 @@
 
 
 
-function power(x,n){
-  let result=1;
-  for(let i=0;i<n;i++){
-    result=result*x;
-  }
+// function power(x,n){
+//   let result=1;
+//   for(let i=0;i<n;i++){
+//     result=result*x;
+//   }
 
-  return result;
+//   return result;
+// }
+
+
+// console.log(power(5,3))
+
+
+function creatElement(){
+
 }
-
-console.log(power(5,3))
